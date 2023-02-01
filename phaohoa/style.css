@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button.hitbox {
+    position: absolute;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.button-sound {
+    left: 10px;
+    background: url(./anh/icons8-audio-50.png) no-repeat;
+    background-size: 26px 26px;
+}
+
+.button-music {
+    left: 50px;
+    background: url(./anh/icons8-music-30.png) no-repeat;
+}
